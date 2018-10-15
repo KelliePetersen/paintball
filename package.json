@@ -2,7 +2,6 @@
   "name": "paintball",
   "version": "1.0.0",
   "description": "Simple website for a small paintball place",
-  "main": "app.js",
   "dependencies": {
     "autoprefixer": "^9.2.0",
     "gulp-postcss": "^8.0.0",
@@ -13,7 +12,9 @@
     "postcss-simple-vars": "^5.0.1"
   },
   "devDependencies": {
-    "browser-sync": "^2.26.3"
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "normalize.css": "^8.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
