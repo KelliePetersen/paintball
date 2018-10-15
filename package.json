@@ -1,0 +1,31 @@
+{
+  "name": "paintball",
+  "version": "1.0.0",
+  "description": "Simple website for a small paintball place",
+  "main": "app.js",
+  "dependencies": {
+    "autoprefixer": "^9.2.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-watch": "^5.0.1",
+    "postcss-import": "^12.0.0",
+    "postcss-mixins": "^6.2.0",
+    "postcss-nested": "^4.1.0",
+    "postcss-simple-vars": "^5.0.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KelliePetersen/paintball.git"
+  },
+  "author": "Kellie Petersen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KelliePetersen/paintball/issues"
+  },
+  "homepage": "https://github.com/KelliePetersen/paintball#readme"
+}
