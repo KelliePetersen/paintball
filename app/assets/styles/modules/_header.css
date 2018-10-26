@@ -1,0 +1,10 @@
+.header {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  background-color: $mainGreen;
+
+  &__logo {
+    display: inline-block;
+  }
+}

@@ -355,12 +355,73 @@ img {
   max-height: auto;
 }
 
-.page-heading {
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1600px;
+}
 
-  background-color: #cccccc;
+.header {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  background-color: #7db38b;
+}
+
+.header__logo {
+    display: inline-block;
+  }
+
+.nav {
+  border: 0px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.nav--float {
+    float: right;
+  }
+
+.nav__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+.nav__list::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.nav__list-item {
+    float: left;
+    display: block;
+  }
+
+.nav__button {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: block;
+    text-align: center;
+  }
+
+.nav__button:hover {
+    color: #ccc;
+  }
+
+.nav__button--attention {
+    background-color: #7da5b3;
+    
+  }
+
+.page-heading {
   height: 50%;
   position: relative;
   overflow: hidden;
+  border-bottom: 20px solid #7db38b;
 }
 
 .page-heading__image {
@@ -368,46 +429,28 @@ img {
   }
 
 .page-heading__text {
-    text-align: center;
+    text-align: left;
     position: absolute;
     top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    left: 5%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
     color: white;
   }
 
-.nav {
-  width: 100%;
-  background-color: #bbb;
+.btn {
+  background-color: #7da5b3;
+  color: #fff;
+  padding: 15px;
   border: 0px;
-  text-align: left;
+  font-weight: bold;
+  cursor: pointer;
 }
 
-.nav__list {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+.btn:hover {
+    background-color: lightblue;
   }
 
-.nav__list-item {
-    float: left;
-  }
-
-.nav__button {
-    text-decoration: none;
-    color: white;
-    padding: 10px;
-    display: block;
-    text-align: center;
-  }
-
-.nav__button:hover {
-    background-color: #333;
-  }
-
-.nav__button--attention {
-    background-color: lightcoral;
-    
-  }
+.text {
+  line-height: 1.5;
+}

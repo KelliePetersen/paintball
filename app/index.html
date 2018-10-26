@@ -9,24 +9,53 @@
 </head>
 <body>
 
+<header class="header">
+  <div class="wrapper">
+    <div class="header__logo">
+      <a href="#" class="home-link">
+        <img src="assets/images/logo-placeholder.jpg" alt="">
+      </a>
+    </div>
+    <nav class="nav nav--float">
+      <ul class="nav__list">
+        <li class="nav__list-item"><a class="nav__button home-link" href="#">HOME</a></li>
+        <li class="nav__list-item"><a class="nav__button rates-link" href="#">RATES</a></li>
+        <li class="nav__list-item"><a class="nav__button location-link" href="#">LOCATION</a></li>
+        <li class="nav__list-item"><a class="nav__button gallery-link" href="#">GALLERY</a></li>
+        <li class="nav__list-item"><a class="nav__button faq-link" href="#">FAQ</a></li>
+        <li class="nav__list-item"><a class="nav__button about-link" href="#">ABOUT</a></li>
+        <li class="nav__list-item"><a href="#" class="nav__button nav__button--attention book-link">BOOK ONLINE</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
   <div class="page-heading">
     <img class="page-heading__image" src="./assets/images/main-large.jpg" alt="">
     <div class="page-heading__text">
       <h1 class="page-heading__title">Pain Palace Paintball Place</h1>
-      <p class="page-heading__subtitle">Pittsburgh, PA</p>
+      <h2 class="page-heading__subtitle">Pittsburgh, PA</h2>
+      <button class="btn">BOOK ONLINE</button>
     </div>
   </div>
-  
-  <nav class="nav">
-    <ul class="nav__list">
-      <li class="nav__list-item"><a class="nav__button" href="#">Paintball Basics</a></li>
-      <li class="nav__list-item"><a class="nav__button" href="#">Our Facilities</a></li>
-      <li class="nav__list-item"><a class="nav__button" href="#">Reservations</a></li>
-      <li class="nav__list-item"><a class="nav__button" href="#">Directions</a></li>
-      <li class="nav__list-item"><a class="nav__button" href="#">Tournaments</a></li>
-      <li class="nav__list-item"><a href="#" class="nav__button nav__button--attention">Book Online Now</a></li>
-    </ul>
-  </nav>
+    
+  <div class="wrapper text">
+    <h2>Welcome to Pain Palace</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet blandit tellus. Cras vestibulum sapien
+      libero, eget scelerisque velit maximus ut. Maecenas erat ligula, laoreet eu convallis sed, bibendum eget ipsum.
+      Vestibulum leo nulla, eleifend sit amet volutpat eu, mollis fringilla arcu. Maecenas commodo porta augue id elementum.
+      Proin id purus efficitur, feugiat nisi vel, cursus tellus. Maecenas ullamcorper et purus at posuere. Curabitur lobortis
+      accumsan viverra. Aliquam rhoncus finibus dignissim. Sed maximus enim sed ultricies cursus. Nulla tincidunt tempus
+      tempor. Sed eget dapibus ante, eu dapibus sem.</p>
+      
+    <p>Pellentesque congue felis nisl, vitae efficitur ligula varius eget. Praesent porta sed metus quis efficitur. Curabitur
+      interdum dolor sed tortor tincidunt, sed elementum lacus malesuada. Aliquam rhoncus vehicula nisl, et accumsan justo
+      accumsan sit amet. Nulla pharetra gravida dignissim. Mauris sagittis quis quam nec convallis. Sed a blandit libero.
+      Curabitur odio erat, semper nec mollis sed, euismod ac nibh. Morbi mauris tortor, mollis vitae pellentesque in,
+      ultrices quis purus. Nullam et sapien in ex dapibus ultricies nec vitae sem. Suspendisse ullamcorper augue velit, et
+      ornare leo fermentum quis. Donec in placerat tellus, sed ultrices lacus. Aenean rutrum egestas dapibus. Ut ornare
+      lectus sed lacus pulvinar, gravida imperdiet nisi vehicula.</p>
+  </div>
 
   <div>
     <p>Pain Palace is Open August, September and October by reservations only. Open November thru July every Saturday from 11 to 6 winter
@@ -36,28 +65,21 @@
     1234 Feel-the-Pain Road
     Pittsburgh, PA 84147</p>
   </div>
-  
-  <div>
-    <h2>Welcome to Pain Palace</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet blandit tellus. Cras vestibulum sapien
-    libero, eget scelerisque velit maximus ut. Maecenas erat ligula, laoreet eu convallis sed, bibendum eget ipsum.
-    Vestibulum leo nulla, eleifend sit amet volutpat eu, mollis fringilla arcu. Maecenas commodo porta augue id elementum.
-    Proin id purus efficitur, feugiat nisi vel, cursus tellus. Maecenas ullamcorper et purus at posuere. Curabitur lobortis
-    accumsan viverra. Aliquam rhoncus finibus dignissim. Sed maximus enim sed ultricies cursus. Nulla tincidunt tempus
-    tempor. Sed eget dapibus ante, eu dapibus sem.</p>
-    
-    <p>Pellentesque congue felis nisl, vitae efficitur ligula varius eget. Praesent porta sed metus quis efficitur. Curabitur
-    interdum dolor sed tortor tincidunt, sed elementum lacus malesuada. Aliquam rhoncus vehicula nisl, et accumsan justo
-    accumsan sit amet. Nulla pharetra gravida dignissim. Mauris sagittis quis quam nec convallis. Sed a blandit libero.
-    Curabitur odio erat, semper nec mollis sed, euismod ac nibh. Morbi mauris tortor, mollis vitae pellentesque in,
-    ultrices quis purus. Nullam et sapien in ex dapibus ultricies nec vitae sem. Suspendisse ullamcorper augue velit, et
-    ornare leo fermentum quis. Donec in placerat tellus, sed ultrices lacus. Aenean rutrum egestas dapibus. Ut ornare
-    lectus sed lacus pulvinar, gravida imperdiet nisi vehicula.</p>
-  </div>
 
   <p><a target="_blank" href="#">Download a General Release</a>(Required for all players)</p>
 
-  <footer>
+  <footer class="footer">
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__list-item"><a class="nav__button home-link" href="#">HOME</a></li>
+        <li class="nav__list-item"><a class="nav__button rates-link" href="#">RATES</a></li>
+        <li class="nav__list-item"><a class="nav__button location-link" href="#">LOCATION</a></li>
+        <li class="nav__list-item"><a class="nav__button gallery-link" href="#">GALLERY</a></li>
+        <li class="nav__list-item"><a class="nav__button faq-link" href="#">FAQ</a></li>
+        <li class="nav__list-item"><a class="nav__button about-link" href="#">ABOUT</a></li>
+        <li class="nav__list-item"><a href="#" class="nav__button nav__button--attention book-link">BOOK ONLINE</a></li>
+      </ul>
+    </nav>
     <p>Copyright 2018</p>
   </footer>
   

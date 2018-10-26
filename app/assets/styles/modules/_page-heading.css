@@ -1,20 +1,19 @@
 .page-heading {
-
-  background-color: #cccccc;
   height: 50%;
   position: relative;
   overflow: hidden;
+  border-bottom: 20px solid $mainGreen;
 
   &__image {
     display: block;
   }
 
   &__text {
-    text-align: center;
+    text-align: left;
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 5%;
+    transform: translateY(-50%);
     color: white;
   }
 }

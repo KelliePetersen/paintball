@@ -1,34 +1,39 @@
 .nav {
-  width: 100%;
-  background-color: #bbb;
   border: 0px;
-  text-align: left;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 40px;
 
+  &--float {
+    float: right;
+  }
+  
   &__list {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    @mixin clearfix;
   }
 
   &__list-item {
     float: left;
+    display: block;
   }
 
   &__button {
     text-decoration: none;
-    color: white;
-    padding: 10px;
+    color: $mainFontColor;
+    padding: 15px;
     display: block;
     text-align: center;
   }
 
   &__button:hover {
-    background-color: #333;
+    color: #ccc;
   }
 
   &__button--attention {
-    background-color: lightcoral;
+    background-color: $mainBlue;
     
   }
 }
