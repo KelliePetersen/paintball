@@ -1,8 +1,8 @@
 .page-heading {
-  height: 50%;
+  height: 55%;
   position: relative;
   overflow: hidden;
-  border-bottom: 20px solid $mainGreen;
+  border-bottom: 10px solid $mainColor1;
 
   &__image {
     display: block;
@@ -15,5 +15,9 @@
     left: 5%;
     transform: translateY(-50%);
     color: white;
+
+    @mixin atLarge {
+      left: calc((100% - 1600px)/2);
+    }
   }
 }

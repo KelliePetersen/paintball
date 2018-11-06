@@ -3,8 +3,10 @@
 @import "base/_mixins";
 @import "base/_global";
 @import "modules/_wrapper";
+@import "modules/_top-bar";
 @import "modules/_header";
 @import "modules/_nav";
 @import "modules/_page-heading";
+@import "modules/_footer";
 @import "modules/_btn";
-@import "modules/_text";
+@import "modules/_text-section";
