@@ -1,4 +1,8 @@
 .text-section {
   line-height: 1.5;
   margin: 50px auto;
+
+  &__paragraph {
+    max-width: 770px;
+  }
 }

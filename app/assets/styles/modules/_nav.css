@@ -3,15 +3,13 @@
   text-align: center;
   font-weight: bold;
 
-  &--float {
+  &--header {
+    padding-top: 28px;
     float: right;
   }
 
-  &--light {
+  &--footer {
     font-weight: lighter;
-  }
-
-  &--color {
     background-color: $mainColor1;
   }
   
@@ -36,11 +34,20 @@
   }
 
   &__button:hover {
-    color: #ccc;
+    color: #d64a4a;
   }
 
-  &__button--attention {
-    background-color: $mainBlue;
-    
+  &__list--grid {
+    display: grid;
+    grid-template-areas: ". . . ."
+                         ". . . ."
+                         "b b b b";
+    justify-content: center;
+  }
+
+  &__list--grid__button {
+    grid-area: b;
+    margin: 0 auto;
+    padding-bottom: 15px;
   }
 }

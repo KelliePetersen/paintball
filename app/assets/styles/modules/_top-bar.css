@@ -14,5 +14,21 @@
     display: inline-block;
     list-style-type: none;
     padding-right: 20px;
+    vertical-align: middle;
+  }
+
+  &__list-item:last-child {
+    padding-right: 0px;
+    float: right;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $footerText;
+  }
+
+  &__icon {
+    vertical-align: middle;
+    padding-right: 5px;
   }
 }
