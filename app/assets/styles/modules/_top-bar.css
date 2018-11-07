@@ -1,20 +1,17 @@
 .top-bar {
   background-color: $footerBackground;
-  padding: 10px 0;
+  padding: 6px 0;
   color: $footerText;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
 
   &__list {
-    max-width: 1600px;
     padding: 0px;
-    margin: 0 auto;
   }
 
   &__list-item {
     display: inline-block;
     list-style-type: none;
     padding-right: 20px;
-    vertical-align: middle;
   }
 
   &__list-item:last-child {
@@ -25,6 +22,10 @@
   &__link {
     text-decoration: none;
     color: $footerText;
+  }
+
+  &__list-item:hover {
+    text-decoration: underline;
   }
 
   &__icon {

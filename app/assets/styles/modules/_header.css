@@ -2,14 +2,13 @@
   z-index: 1;
   width: 100%;
   background-color: $mainColor1;
+  background-image: url(/assets/images/black-texture.jpg);
 
   &__logo {
     display: inline-block;
     position: relative;
     width: 250px;
- 
     padding: 15px 0px;
-    background-color: $mainColor1;
     box-sizing: border-box;
     font-size: 2rem;
     font-weight: bolder;
