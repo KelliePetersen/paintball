@@ -4,6 +4,11 @@
   background-color: $mainColor1;
   background-image: url(/assets/images/black-texture.jpg);
 
+  &__grid {
+    display: grid;
+    grid-template-areas: ". .";
+  }
+
   &__logo {
     display: inline-block;
     position: relative;

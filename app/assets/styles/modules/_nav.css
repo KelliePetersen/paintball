@@ -4,8 +4,8 @@
   font-weight: bold;
 
   &--header {
-    padding-top: 28px;
-    float: right;
+    align-self: center;
+    justify-self: end;
   }
 
   &--footer {
@@ -28,13 +28,30 @@
   &__button {
     text-decoration: none;
     color: $mainFontColor;
-    padding: 15px;
+    margin: 15px;
     display: block;
     text-align: center;
+    transition: color 0.25s ease;
   }
 
-  &__button:hover {
-    color: #d64a4a;
+  &__button--header:after {
+    display: block;
+    content: '';
+    border-bottom: solid 2px $mainRed;
+    transform: scaleX(0);
+    transition: transform 0.25s ease-in-out;
+  }
+
+  &__button--header:hover {
+    color: $mainRed;
+  }
+
+  &__button--header:hover:after {
+    transform: scaleX(1);
+  }
+
+  &__button--footer:hover {
+    color: $footerTextDark;
   }
 
   &__list--grid {
