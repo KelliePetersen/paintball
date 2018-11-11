@@ -362,7 +362,7 @@ img {
 }
 
 .top-bar {
-  background-color: #272727;
+  background-color: #252525;
   padding: 6px 0;
   color: #b6b6b6;
   font-size: 0.75rem;
@@ -400,7 +400,7 @@ img {
 .header {
   z-index: 1;
   width: 100%;
-  background-color: #2b2f30;
+  background-color: #303536;
   background-image: url(/assets/images/black-texture.jpg);
 }
 
@@ -431,7 +431,6 @@ img {
 
 .nav {
   border: 0px;
-  text-align: center;
   font-weight: bold;
 }
 
@@ -442,7 +441,8 @@ img {
 
 .nav--footer {
     font-weight: lighter;
-    background-color: #2b2f30;
+    background-color: #303536;
+    padding: 30px 0;
   }
 
 .nav__list {
@@ -465,10 +465,12 @@ img {
 .nav__button {
     text-decoration: none;
     color: #eee;
-    margin: 15px;
     display: block;
-    text-align: center;
     transition: color 0.25s ease;
+  }
+
+.nav__button--header {
+    margin: 15px;
   }
 
 .nav__button--header:after {
@@ -491,6 +493,10 @@ img {
             transform: scaleX(1);
   }
 
+.nav__button--footer {
+    margin: 0px 15px 15px 15px;
+  }
+
 .nav__button--footer:hover {
     color: #8c8c8c;
   }
@@ -501,20 +507,20 @@ img {
                          ". . . ."
                          "b b b b";
     justify-content: center;
+    align-items: start;
   }
 
 .nav__list--grid__button {
     grid-area: b;
     margin: 0 auto;
-    padding-bottom: 15px;
   }
 
 .page-heading {
   height: 65%;
   position: relative;
   overflow: hidden;
-  border-bottom: 10px solid #2b2f30;
-  background-color: #2b2f30;
+  border-bottom: 10px solid #303536;
+  background-color: #303536;
 }
 
 .page-heading__image {
@@ -553,8 +559,9 @@ img {
   }
 
 .footer {
-  background-color: #272727;
+  background-color: #252525;
   color: #b6b6b6;
+  font-size: 0.9rem;
 }
 
 .footer__info {
@@ -566,21 +573,25 @@ img {
     margin: 30px 50px;
   }
 
-.footer__copyright {
-    display: inline-block;
-    padding: 10px 0;
-    margin: 0px;
+.footer__info-heading {
+    font-weight: 100;
+    font-size: 1.2rem;
+    color: #797986;
   }
 
-.footer__designer {
-    float: right;
+.footer__info-subtitles {
+    font-weight: 700;
+  }
+
+.footer__info-bottom {
     margin: 0;
-    padding: 10px 0;
+    padding: 15px 25px;
   }
 
 .btn {
   display: block;
   text-decoration: none;
+  text-align: center;
   background-color: #d64a4a;
   color: #eee;
   padding: 15px;
@@ -597,6 +608,7 @@ img {
     background-color: #bb2a2a;
     position: relative;
     top: 2px;
+    left: 1px;
   }
 
 .text-section {

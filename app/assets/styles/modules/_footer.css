@@ -1,6 +1,7 @@
 .footer {
   background-color: $footerBackground;
   color: $footerText;
+  font-size: 0.9rem;
 
   &__info {
     display: flex;
@@ -11,15 +12,18 @@
     margin: 30px 50px;
   }
 
-  &__copyright {
-    display: inline-block;
-    padding: 10px 0;
-    margin: 0px;
+  &__info-heading {
+    font-weight: 100;
+    font-size: 1.2rem;
+    color: $purple;
   }
 
-  &__designer {
-    float: right;
+  &__info-subtitles {
+    font-weight: 700;
+  }
+
+  &__info-bottom {
     margin: 0;
-    padding: 10px 0;
+    padding: 15px 25px;
   }
 }

@@ -1,6 +1,7 @@
 .btn {
   display: block;
   text-decoration: none;
+  text-align: center;
   background-color: $mainRed;
   color: $mainFontColor;
   padding: 15px;
@@ -16,5 +17,6 @@
     background-color: $mainRedDark;
     position: relative;
     top: 2px;
+    left: 1px;
   }
 }
