@@ -402,6 +402,10 @@ img {
     padding-right: 5px;
   }
 
+.top-bar--fixed-menu {
+    margin-bottom: 103.6px;
+  }
+
 .header {
   z-index: 1;
   width: 100%;
@@ -423,6 +427,10 @@ img {
     font-size: 2rem;
     font-weight: bolder;
   }
+
+.header__logo--fixed-menu {
+      width: auto;
+    }
 
 .header__logo > a {
     text-decoration: none;
@@ -735,7 +743,7 @@ img {
   }
 
 .page-section {
-  padding: 40px 0px;
+  padding: 40px 0px 60px 0px;
 }
 
 .page-section--beige {
@@ -779,7 +787,6 @@ img {
 .text-section__title {
     text-align: center;
     font-size: 3rem;
-    margin-bottom: 40px;
   }
 
 .text-section__subtitle {

@@ -32,4 +32,8 @@
     vertical-align: middle;
     padding-right: 5px;
   }
+
+  &--fixed-menu {
+    margin-bottom: 103.6px;
+  }
 }
