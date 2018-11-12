@@ -29,7 +29,7 @@
     text-decoration: none;
     color: $mainFontColor;
     display: block;
-    transition: color 0.25s ease;
+    transition: 0.25s ease;
   }
 
   &__button--header {
@@ -52,12 +52,12 @@
     transform: scaleX(1);
   }
 
-  &__button--footer {
+  &__button--margin {
     margin: 0px 15px 15px 15px;
   }
 
   &__button--footer:hover {
-    color: $footerTextDark;
+    opacity: 0.5;
   }
 
   &__list--grid {

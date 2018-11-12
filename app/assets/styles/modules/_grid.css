@@ -1,0 +1,15 @@
+.grid {
+
+  &--simple {
+    display: grid;
+    grid-template-areas: ". ."
+                         ". .";
+    grid-column-gap: 5%;
+  }
+
+  &__image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+}
