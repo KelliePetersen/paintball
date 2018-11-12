@@ -11,12 +11,9 @@
   cursor: pointer;
   border-radius: 10px;
   box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3); 
-  transition: background-color 0.1s ease;
+  transition: background-color 0.2s ease;
 
   &:hover {
     background-color: $mainRedDark;
-    position: relative;
-    top: 2px;
-    left: 1px;
   }
 }

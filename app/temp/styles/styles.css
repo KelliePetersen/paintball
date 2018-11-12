@@ -530,25 +530,12 @@ img {
 
 .page-heading__image {
     display: block;
+    opacity: 0.5;
   }
 
 @media (min-width: 1760px) {
 
 .page-heading__image {
-      display: none
-  }
-  }
-
-.page-heading__overlay {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-color: rgba(50, 50, 50, 0.5);
-  }
-
-@media (min-width: 1760px) {
-
-.page-heading__overlay {
       display: none
   }
   }
@@ -594,27 +581,45 @@ img {
 .slideshow {
     position: absolute;
     display: block;
-    height: 100%
+    height: 100%;
+    width: 100%
 
 
 }
   }
 
-.slideshow__image {
+.slideshow__slide {
     display: none;
   }
 
-.slideshow__image--visible {
+.slideshow__slide--visible {
       display: block;
-      margin: 0 auto;
       width: 100%;
     }
 
-.slideshow__overlay {
+.slideshow__slide-effect {
+    -webkit-animation-name: fade;
+            animation-name: fade;
+    -webkit-animation-duration: 6s;
+            animation-duration: 6s;
+  }
+
+@-webkit-keyframes fade {
+    0% {opacity: 0.1} 
+    40% {opacity: 0.5}
+    85% {opacity: 0.5}
+    100% {opacity: 0.1}
+  }
+
+@keyframes fade {
+    0% {opacity: 0.1} 
+    40% {opacity: 0.5}
+    85% {opacity: 0.5}
+    100% {opacity: 0.1}
+  }
+
+.slideshow__image {
     width: 100%;
-    height: 100%;
-    position: absolute;
-    background-color: rgba(50, 50, 50, 0.5);
   }
 
 .slideshow__prev, .slideshow__next {
@@ -722,14 +727,11 @@ img {
   cursor: pointer;
   border-radius: 10px;
   box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3); 
-  transition: background-color 0.1s ease;
+  transition: background-color 0.2s ease;
 }
 
 .btn:hover {
     background-color: #bb2a2a;
-    position: relative;
-    top: 2px;
-    left: 1px;
   }
 
 .text-section {
