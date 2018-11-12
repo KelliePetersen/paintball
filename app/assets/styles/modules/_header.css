@@ -2,7 +2,7 @@
   z-index: 1;
   width: 100%;
   background-color: $mainColor1;
-  background-image: url(/assets/images/black-texture.jpg);
+  background-image: url(/assets/images/gray-texture.jpg);
 
   &__grid {
     display: grid;

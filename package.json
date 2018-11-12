@@ -1,6 +1,10 @@
 {
   "name": "paintball",
   "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
   "description": "Simple website for a small paintball place",
   "dependencies": {
     "autoprefixer": "^9.2.0",
@@ -15,10 +19,9 @@
     "browser-sync": "^2.26.3",
     "gulp": "^3.9.1",
     "normalize.css": "^8.0.0",
-    "postcss-hexrgba": "^1.0.1"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postcss-hexrgba": "^1.0.1",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2"
   },
   "repository": {
     "type": "git",
