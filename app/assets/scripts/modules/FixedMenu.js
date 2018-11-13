@@ -25,7 +25,7 @@ class FixedMenu {
   }
 
   logoScroll() {
-    if (window.scrollY > 70) {
+    if (window.scrollY > 150) {
       this.navBarLogo[0].classList.add("header__logo--fixed-menu");
     } else {
       this.navBarLogo[0].classList.remove("header__logo--fixed-menu");

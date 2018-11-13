@@ -627,6 +627,7 @@ img {
   }
 
 .slideshow__image {
+    position: absolute;
     width: 100%;
   }
 
@@ -640,6 +641,10 @@ img {
     font-weight: bold;
     font-size: 5rem;
     transition: 0.5s;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
   }
 
 .slideshow__prev {
@@ -672,6 +677,10 @@ img {
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
   }
 
 .slideshow__dot:hover, .slideshow__dot--selected {
@@ -770,7 +779,7 @@ img {
     }
 
 .page-section__banner--image2 {
-      background-image: url(/assets/images/crouching.jpg);
+      background-image: url(/assets/images/crouchingf.jpg);
     }
 
 .page-section__overlay {
