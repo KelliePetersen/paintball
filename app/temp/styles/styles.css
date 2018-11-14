@@ -411,6 +411,8 @@ img {
   width: 100%;
   background-color: #303536;
   background-image: url(/assets/images/gray-texture.jpg);
+  height: 103.6px;
+  transition: height 0.2s ease;
 }
 
 .header__grid {
@@ -440,6 +442,11 @@ img {
 .header--fixed-menu {
     position: fixed;
     top: 0px;
+  }
+
+.header--smaller-menu {
+    height: 66.8px;
+    transition: height 0.5s ease;
   }
 
 .nav {
@@ -809,6 +816,10 @@ img {
   max-width: 800px;
 }
 
+.text-section--big {
+    max-width: 1050px;
+  }
+
 .text-section__title {
     text-align: center;
     font-size: 3rem;
@@ -823,6 +834,10 @@ img {
     grid-template-areas: ". ."
                          ". .";
     grid-column-gap: 5%;
+  }
+
+.grid--large-gap {
+    grid-column-gap: 10%;
   }
 
 .grid__image {

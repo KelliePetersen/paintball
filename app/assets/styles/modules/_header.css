@@ -3,6 +3,8 @@
   width: 100%;
   background-color: $mainColor1;
   background-image: url(/assets/images/gray-texture.jpg);
+  height: 103.6px;
+  transition: height 0.2s ease;
 
   &__grid {
     display: grid;
@@ -31,5 +33,10 @@
   &--fixed-menu {
     position: fixed;
     top: 0px;
+  }
+
+  &--smaller-menu {
+    height: 66.8px;
+    transition: height 0.5s ease;
   }
 }

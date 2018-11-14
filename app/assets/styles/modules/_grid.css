@@ -7,6 +7,10 @@
     grid-column-gap: 5%;
   }
 
+  &--large-gap {
+    grid-column-gap: 10%;
+  }
+
   &__image {
     object-fit: cover;
     width: 100%;

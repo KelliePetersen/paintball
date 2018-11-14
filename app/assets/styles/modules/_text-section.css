@@ -4,6 +4,10 @@
   text-align: left;
   max-width: 800px;
 
+  &--big {
+    max-width: 1050px;
+  }
+
   &__title {
     text-align: center;
     font-size: 3rem;

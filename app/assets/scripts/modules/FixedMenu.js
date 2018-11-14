@@ -11,6 +11,7 @@ class FixedMenu {
 
   scrollMethods() {
     this.menuOnScroll();
+    this.smallerMenu();
     this.logoScroll();
   }
 
@@ -21,6 +22,14 @@ class FixedMenu {
     } else {
       this.topBar[0].classList.remove("top-bar--fixed-menu");
       this.navBar[0].classList.remove("header--fixed-menu");
+    }
+  }
+
+  smallerMenu() {
+    if (window.scrollY > 160) {
+      this.navBar[0].classList.add("header--smaller-menu");
+    } else {
+      this.navBar[0].classList.remove("header--smaller-menu");
     }
   }
 
