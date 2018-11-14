@@ -9,7 +9,7 @@
     display: block;
     opacity: 0.5;
 
-    @mixin atLarge {
+    @mixin atMedium {
       display: none;
     }
   }
