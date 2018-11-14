@@ -4,7 +4,7 @@
   background-color: $mainColor1;
   background-image: url(/assets/images/gray-texture.jpg);
   height: 103.6px;
-  transition: height 0.2s ease;
+  transition: height 0s;
 
   &__grid {
     display: grid;

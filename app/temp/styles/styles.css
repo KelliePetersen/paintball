@@ -412,7 +412,7 @@ img {
   background-color: #303536;
   background-image: url(/assets/images/gray-texture.jpg);
   height: 103.6px;
-  transition: height 0.2s ease;
+  transition: height 0s;
 }
 
 .header__grid {
@@ -807,6 +807,7 @@ img {
             transform: translate(-50%, -50%);
     margin: 0px;
     color: #eee;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.3);
   }
 
 .text-section {
