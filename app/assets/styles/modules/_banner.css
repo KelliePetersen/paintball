@@ -1,0 +1,69 @@
+.banner {
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  opacity: 0.5;
+  border-top: 5px solid $mainColor1;
+  border-bottom: 5px solid $mainColor1;
+
+  &--image {
+    background-image: url(/assets/images/main-high.jpg);
+  }
+
+  &--image2 {
+    background-image: url(/assets/images/crouchingf.jpg);
+  }
+
+  &--blur {
+    filter: blur(2px);
+  }
+
+  &--top {
+    border-top: 0px;
+    background-attachment: initial
+  }
+
+  &__overlay {
+    background-color: $mainColor1;
+    position: relative;
+  }
+
+  &__text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0px;
+    color: $mainFontColor;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+  }
+
+  &__tile-container {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  &__tile {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    margin: auto 0;
+    height: 200px;
+    border: 4px solid $mainFontColor;
+
+    &--activities {
+      background-image: url(/assets/images/crouchingf.jpg);
+    }
+    &--pricing {
+      background-image: url(/assets/images/crouchingf.jpg);
+    }
+    &--faq {
+      background-image: url(/assets/images/crouchingf.jpg);
+    }
+  }
+}

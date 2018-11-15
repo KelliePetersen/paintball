@@ -7,6 +7,12 @@
     grid-column-gap: 5%;
   }
 
+  &--3 {
+    display: grid;
+    grid-template-areas: ". . .";
+    grid-column-gap: 5%;
+  }
+
   &--large-gap {
     grid-column-gap: 10%;
   }

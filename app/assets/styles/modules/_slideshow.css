@@ -14,6 +14,7 @@
     &--visible {
       display: block;
       width: 100%;
+      height: 100%;
     }
   }
 
@@ -24,14 +25,20 @@
 
   @keyframes fade {
     0% {opacity: 0.1} 
-    40% {opacity: 0.5}
-    85% {opacity: 0.5}
+    30% {opacity: 0.5}
+    90% {opacity: 0.5}
     100% {opacity: 0.1}
   }
 
   &__image {
     position: absolute;
-    min-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    &--no-fit {
+      height: auto;
+    }
   }
 
   &__prev, &__next {

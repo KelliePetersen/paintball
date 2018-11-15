@@ -2,12 +2,15 @@
   height: 65%;
   position: relative;
   overflow: hidden;
-  border-bottom: 10px solid $mainColor1;
+  border-bottom: 10px solid $footerBackground;
   background-color: $mainColor1;
 
   &__image {
     display: block;
     opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 
     @mixin atMedium {
       display: none;
